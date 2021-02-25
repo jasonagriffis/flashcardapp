@@ -11,6 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
+        android:background="@drawable/card_background1"
+        android:textColor="#000000"
+        android:padding="20dp"
         android:text="Who is the 44th President of the United States?"
         android:textSize="40sp" />
 
@@ -20,6 +23,65 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
+        android:background="@drawable/card_background2"
+        android:textColor="#000000"
         android:text="Barack Obama"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/multiple_choice1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/flashcard_question"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/card_background1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:text="Bill Clinton" />
+
+    <TextView
+        android:id="@+id/multiple_choice2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/multiple_choice1"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/card_background1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:text="Barack Obama" />
+
+    <TextView
+        android:id="@+id/multiple_choice3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/multiple_choice2"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/card_background1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:text="Donald Trump" />
+
+    <TextView
+        android:id="@+id/multiple_choice4"
+        android:layout_width="match_parent"
+        android:layout_below="@id/multiple_choice3"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/card_background1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:text="George W. Bush" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/eye_shown" />
+
 </RelativeLayout>
