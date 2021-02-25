@@ -8,7 +8,7 @@
 A flash card application for displaying questions and the corresponding answers.
 
 ### App Walk-though
-Click on the question or the multiple choice answer to display the answer.
+Click on the question or the multiple choice answer to display the answer. Afterwards, you can click on answer in the main window to reset the question.
 
 <img src="https://github.com/jasonagriffis/flashcardapp/blob/main/flashcardapp.gif" width=200><br>
 
